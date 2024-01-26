@@ -1,0 +1,262 @@
+body{
+    background-color: #FDF2F8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar{
+    border-bottom: 1px solid black;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.nav-bar h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.5em;
+    color: #111827;
+    
+}
+
+.main-page h2 {
+    text-align: center;
+}
+
+
+#nav-logo {
+    width: 60px;
+    padding: 1px;
+    margin: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #1E3A8A
+}
+a:hover, a:focus{
+    color: #5644f5;
+}
+
+.nav-links {
+    padding: 8px;
+    text-align: left;
+}
+
+
+#main-page-links {
+    list-style: none;
+}
+
+#main-page-links li {
+    display: inline;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid black;
+    background-color: #afe2f2;
+    border-radius: 5px;
+}
+#cat-link {
+    cursor: pointer;
+}
+
+#homepage-link {
+    cursor: pointer;
+}
+
+#book-search {
+    padding-top: 4px;
+    padding-right: 6px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2em;
+    color: #111827;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+}
+
+#html-book-main {
+    width: 285px;
+    height: 375px;
+    margin-left: 255px;
+    border: 3px solid black;
+    float:left;
+    display: block;
+}
+
+.html-about {
+    max-width: 500px;
+    border: 2px solid black;
+    margin-top: 105px;
+    margin-right: 250px;
+    text-align: justify;
+    padding: 8px;
+    float: right;
+    background-color: #eeaeca;
+    border-radius: 10px;
+}
+
+#books {
+    width: 285px;
+    height: 375px;
+    margin-left: 255px;
+    margin-top: 120px;
+    border: 3px solid black;
+    float:left;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about {
+    max-width: 500px;
+    border: 2px solid black;
+    margin-top: 300px;
+    margin-right: 250px;
+    text-align: justify;
+    padding: 8px;
+    float: right;
+    background-color: #eeaeca;
+    border-radius: 10px;
+}
+
+
+footer {
+    top: 100px;
+    width: 100%;
+    border-top: 2px solid black;
+    background: #eeaeca;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
+    rgba(148,187,233,1) 100%);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+#copyright {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.book-table {
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 16px;
+}
+
+#price {
+   border: 2px solid black;
+}
+
+#book-cat {
+    height: 280px;
+    width: 280;
+    padding: 2px 8px;
+}
+
+.Sorted-By-Price-From-Low-to-High {
+    margin-top: 150px;
+}
+
+.Sorted-By-Price-From-High-to-Low{
+    margin-top: 150px;
+}
+
+.cart-table {
+    text-align: left;
+    padding-bottom: 16px;
+    border-collapse: collapse;
+    width: 40%;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 150px;
+    border: 2px solid black;
+    background-color: rgb(215, 232, 251);
+}
+
+.cart-table th {
+    border: 2px solid black;
+    background-color: #fad8eb;
+    text-align: center;
+}
+
+.cart-table tr {
+    border: 2px solid black;
+}
+
+.cart-table td {
+    padding-left: 10px;
+    
+}
+
+.cart-table td:nth-child(odd){
+    border-right: 1px solid black;
+}
+
+#cart-book{
+    height: 230px;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#title {
+    text-align: left;
+    margin-bottom: 2px;
+    font-weight: 900;
+}
+
+.price-in-cart{
+    display: inline-block;
+    margin: 5px;
+    margin-left: 40px;
+    padding: 4px;
+    border: 2px solid black;
+    background-color: #f8cade;
+    border-radius: 5px;
+}
+
+.remove-button {
+    display: inline-block;
+    text-align: right;
+    margin: 5px;
+    margin-left: 100px;
+    padding: 4px;
+    border: 2px solid black;
+    background-color: #f8cade;
+    border-radius: 5px;
+}
+
+
+.preview {
+    
+    width: 15%;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    float: right;
+    background-color: #eeaeca;
+    
+}
+
+#preview-book{
+    height: 230px;
+    width: 180px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.add-to-cart {
+    margin-left: 60px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}

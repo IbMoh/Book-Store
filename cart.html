@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header class="nav-bar">
+        <a href="index.html">
+            <img src="images/logo.png" alt="logo" id="nav-logo">
+        </a>
+        <h1>Your Shopping Cart</h1>
+        <div class="nav-links">
+            <ul id="main-page-links">
+                <li>
+                    <a href="index.html" id="homepage-link">Homepage</a>
+                </li>
+                <li>
+                    <a href="categories.html" id="cat-link">Categories</a>
+                </li>
+                <li>
+                    <a href="cart.html" id="cart-link">Cart</a>
+                </li>
+                <li>
+                    <lable for="search">Search</lable>
+                    <input type="search" id="book-search" name="searched book" placeholder="Search">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="cart">
+        <aside class="preview">
+            <p><b>You might be interested in:</b></p>
+            <img src="/images/Html book.jpg" id="preview-book">
+            <button type="button" class="add-to-cart">Add to Cart</button>
+            <img src="/images/css book.jpg" id="preview-book">
+            <button type="button" class="add-to-cart">Add to Cart</button>
+            <img src="/images/fullstack book.jpg" id="preview-book">
+            <button type="button" class="add-to-cart">Add to Cart</button>
+        </aside>
+        <table class="cart-table">
+            <tr>
+                <th>Items</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>
+                    <p id="title">Javascript in Easy Steps</p>
+                    <img src="/images/javascript book.jpg" id="cart-book">
+                </td>
+                <td>
+                    <div class="price-in-cart">
+                        23.43 SEK
+                    </div>
+                    <div class="remove-button">
+                        <label for="remove" id="select-label">remove</label>
+                        <input type="checkbox" id="select" name="remove item">
+                    </div>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <p id="title">A Project Guide to UX Design</p>
+                    <img src="/images/UX book.jpg" id="cart-book">
+                </td>
+                <td>
+                    <div class="price-in-cart">
+                        46.99 SEK
+                    </div>
+                    <div class="remove-button">
+                        <label for="remove" id="select-label">remove</label>
+                        <input type="checkbox" id="select" name="remove item">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <a href="">contacts</a>
+        <p id="copyright">&copy Ibrahim 2024</p>
+    </footer>
+</body>
+</html>
